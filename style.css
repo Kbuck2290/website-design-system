@@ -1,0 +1,93 @@
+body{
+    background-color: #f5f5f5; 
+    font-family: Arial, sans-serif; 
+    margin: 0;
+} 
+
+main {
+    max-width: 1000px; 
+    margin: 0 auto; 
+    padding: 20px;
+} 
+
+.title-page{
+    text-align: center;
+}
+
+.color-box{
+    background-color: #0000ff; 
+    color: #ffffff;
+    padding: 20px; 
+    width: 200px;
+    border: 1px solid black;  
+    display: inline-block;  
+    box-sizing: border-box;
+} 
+
+.color-box.dark-gray-box{
+    background-color: #333333;
+} 
+
+.color-box.light-blue-box{
+    background-color: #87CEFA;  
+    color: #000000;
+}   
+
+.color-box + .color-box {
+    margin-left: 15px;
+}
+
+.arial-font-box {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.arial-font-box p:first-of-type {
+  font-weight: 400; 
+} 
+
+.arial-font-box p:nth-of-type(2) {
+  font-weight: 700;
+} 
+
+.arial-font-box p:nth-of-type(3) {
+  font-style: italic;
+}  
+
+.georgia-font-box {
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+.georgia-font-box p:first-of-type {
+    font-weight: 400; 
+} 
+
+.georgia-font-box p:nth-of-type(2) {
+    font-weight: 700; 
+} 
+
+.georgia-font-box p:nth-of-type(3) {
+    font-style: italic; 
+} 
+
+#fonts p {
+  font-size: 18px;
+} 
+
+.heading-style h1{
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 36px; 
+    font-weight: 700;
+}   
+
+.sub-heading-style h2{
+    font-family:Georgia, 'Times New Roman', Times, serif; 
+    font-size: 24px;  
+    font-weight:700;
+    
+} 
+
+.paragraph-style p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px; 
+    font-weight: 400;
+}
